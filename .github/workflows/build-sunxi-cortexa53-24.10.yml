@@ -1,7 +1,6 @@
 name: build-sunxi-cortexa53-24.10.0
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch:
     inputs:
       profile:
         type: choice
